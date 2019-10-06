@@ -11,7 +11,7 @@ public class InterruptExample implements Runnable {
         try {
             Thread.sleep(Long.MAX_VALUE);
         } catch (InterruptedException e) {
-            log.info("[{}] interrupted by exception", Thread.currentThread().getName());
+            log.warn("[{}] interrupted by exception", Thread.currentThread().getName());
         }
 
         while (!Thread.interrupted()) {
