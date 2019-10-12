@@ -1,4 +1,4 @@
-package com.androsaces.samplecode.concurrency.introduction;
+package com.androsaces.samplecode.concurrency.lessonone;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
