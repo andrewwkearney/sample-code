@@ -2,7 +2,7 @@
  * Copyright 2019. Androsaces. All rights reserved.
  */
 
-package com.androsaces.samplecode.concurrency.lessontwo;
+package com.androsaces.samplecode.concurrency.lessontwo.monitors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
