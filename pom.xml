@@ -9,9 +9,10 @@
 
     <groupId>com.androsaces.examples</groupId>
     <artifactId>sample-code</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.1</version>
 
     <modules>
         <module>concurrency-essentials</module>
+        <module>java-essentials</module>
     </modules>
 </project>
