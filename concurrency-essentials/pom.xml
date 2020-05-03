@@ -4,12 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>com.androsaces.examples</groupId>
+        <artifactId>sample-code</artifactId>
+        <version>1.0.1</version>
+    </parent>
+
     <groupId>com.androsaces.examples.sample-code</groupId>
     <artifactId>concurrency-essentials</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>
-        <jdk.version>11</jdk.version>
         <maven.compiler.source>${jdk.version}</maven.compiler.source>
         <maven.compiler.target>${jdk.version}</maven.compiler.target>
     </properties>
@@ -18,13 +23,11 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>2.0.0-alpha0</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-slf4j18-impl</artifactId>
-            <version>LATEST</version>
         </dependency>
     </dependencies>
 
