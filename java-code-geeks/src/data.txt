@@ -1,0 +1,3 @@
+Hello,
+This is my first NIO read. I am reading multiple lines.
+The code is implemented for Javacodegeeks by Abhishek Kothari
