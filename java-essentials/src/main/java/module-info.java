@@ -7,5 +7,6 @@ open module java.essentials {
     requires org.apache.logging.log4j;
     requires org.slf4j;
     requires jmh.core;
+    requires kotlin.stdlib;
 
 }
