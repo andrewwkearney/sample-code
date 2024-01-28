@@ -13,6 +13,7 @@
 
     <modules>
         <module>algo-expert</module>
+        <module>core-java</module>
         <module>concurrency-essentials</module>
         <module>functional</module>
         <module>java-code-geeks</module>
@@ -20,7 +21,7 @@
     </modules>
 
     <properties>
-        <jdk.version>14</jdk.version>
+        <jdk.version>17</jdk.version>
         <junit.jupiter.version>5.5.2</junit.jupiter.version>
         <junit.platform.version>1.5.2</junit.platform.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
